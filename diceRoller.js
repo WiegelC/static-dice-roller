@@ -1,5 +1,5 @@
 // Configuration
-const SERVER_URL = 'http://localhost:3000'; // Change this to your server's URL in production
+const SERVER_URL = 'https://dice-roller-node-js-server-dfe0ckepdmfxgbab.centralus-01.azurewebsites.net'; // Change this to your server's URL in production
 
 // DOM Elements
 const rollButton = document.getElementById('rollButton');
