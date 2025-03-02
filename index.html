@@ -10,19 +10,24 @@
     <div class="container">
         <h1>Dice Roller</h1>
 
+        <div id="serverStatus" class="server-status">
+            Connecting to server...
+        </div>
+
         <div class="dice-container">
             <button id="rollButton" type="button">Roll Dice</button>
             <div class="result-container">
                 <span>Result: </span>
                 <input id="diceResult" type="text" value="" size="5" readonly>
             </div>
+            <div id="serverInfo" class="server-info"></div>
         </div>
         
         <div class="instructions-container">
             <button type="button" onclick="toggleInstructions()">Instructions</button>
             <p id="instructions" class="hidden">
                 This application simulates rolling a six-sided die. Click "Roll Dice" to generate a random number between 1 and 6.
-                The result is calculated on our secure server!
+                The result is calculated on our secure Azure server!
             </p>
         </div>
 

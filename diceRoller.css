@@ -78,3 +78,23 @@ input[type="text"] {
     background-color: #f8d7da;
     border-radius: 4px;
 }
+
+.server-status {
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #e8f5e9;
+    border-radius: 4px;
+}
+
+.server-status.error {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+.server-info {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.5rem;
+    text-align: center;
+}
