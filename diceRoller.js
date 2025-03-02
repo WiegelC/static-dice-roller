@@ -39,7 +39,15 @@ async function rollDice() {
         rollButton.textContent = 'Roll Dice';
     }
 }
-
+document.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        document.getElementById("rollButton").click();
+    }
+});
+window.onload = function() {
+    rollDice();
+    document.getElementById("rollButton").focus();
+};
 function toggleInstructions() {
     instructions.classList.toggle('hidden');
 } 

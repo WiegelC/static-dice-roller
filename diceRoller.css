@@ -34,7 +34,7 @@ h1 {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #614caf;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -45,7 +45,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #221455;
 }
 
 button:disabled {
